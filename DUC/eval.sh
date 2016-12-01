@@ -14,8 +14,8 @@ cd tmp_OUTPUT
 export PERL5LIB=/data/users/sashar/summary/duc/RELEASE-1.5.5/
 
 echo "FULL LENGTH"
-perl $ROUGE/ROUGE-1.5.5.pl -m -n 2 -w 1.2 -e $ROUGE -a settings.xml
+perl $ROUGE/ROUGE-1.5.5.pl -m -n 2 -w 1.2 -e $ROUGE/data -a settings.xml
 
 
 echo "LIMITED LENGTH"
-perl $ROUGE/ROUGE-1.5.5.pl -m -b 75 -n 2 -w 1.2 -e $ROUGE -a settings.xml
+perl $ROUGE/ROUGE-1.5.5.pl -m -b 75 -n 2 -w 1.2 -e $ROUGE/data -a settings.xml
