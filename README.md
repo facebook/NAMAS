@@ -39,7 +39,7 @@ script to extract the data set in text format.
 ### Generating the data
 
 To construct the data set run the following script to produce `working_dir/`,
-where `working_dir/' is the path to the directory where you want to store the
+where `working_dir/` is the path to the directory where you want to store the
 processed data. The script 'construct_data.sh' makes use of the 'parallel'
 utility, so please make sure that it is in your path.
 WARNING: This may take a couple hours to run.
